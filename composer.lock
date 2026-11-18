@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9bf224739eeeb99ffea425f52d58af83",
+    "content-hash": "104b43f389671dd9fc448c9988560201",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1424,16 +1424,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v13.43.0",
+            "version": "dev-cloud-build-log-format",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "72aa7e151062e218704d8660f407e6070040d8bc"
+                "reference": "da5ca392b7deeed6899838f7cd91df72ef7480df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/72aa7e151062e218704d8660f407e6070040d8bc",
-                "reference": "72aa7e151062e218704d8660f407e6070040d8bc",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/da5ca392b7deeed6899838f7cd91df72ef7480df",
+                "reference": "da5ca392b7deeed6899838f7cd91df72ef7480df",
                 "shasum": ""
             },
             "require": {
@@ -1653,8 +1653,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-17T14:58:33+00:00",
-            "published-time": "2026-11-17T14:58:44+00:00"
+            "time": "2026-11-18T01:25:45+00:00",
+            "published-time": "2026-11-18T01:25:53+00:00"
         },
         {
             "name": "laravel/passkeys",
@@ -11803,9 +11803,18 @@
             "published-time": "2026-02-17T17:26:32+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "laravel/framework",
+            "version": "dev-cloud-build-log-format",
+            "alias": "13.x-dev",
+            "alias_normalized": "13.9999999.9999999.9999999-dev"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "laravel/framework": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
