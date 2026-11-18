@@ -1428,12 +1428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "da5ca392b7deeed6899838f7cd91df72ef7480df"
+                "reference": "157971cae1eedaa4a2e6bcd1eadf202b9b531129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/da5ca392b7deeed6899838f7cd91df72ef7480df",
-                "reference": "da5ca392b7deeed6899838f7cd91df72ef7480df",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/157971cae1eedaa4a2e6bcd1eadf202b9b531129",
+                "reference": "157971cae1eedaa4a2e6bcd1eadf202b9b531129",
                 "shasum": ""
             },
             "require": {
@@ -1653,8 +1653,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-18T01:25:45+00:00",
-            "published-time": "2026-11-18T01:25:53+00:00"
+            "time": "2026-11-18T18:14:55+00:00",
+            "published-time": "2026-11-18T18:15:07+00:00"
         },
         {
             "name": "laravel/passkeys",
