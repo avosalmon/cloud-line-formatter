@@ -2,7 +2,6 @@
 
 namespace App\Console\Commands;
 
-use Exception;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
@@ -28,7 +27,5 @@ class OutputLog extends Command
         Log::alert('This is an alert message.');
 
         Log::emergency('This is an emergency message.');
-
-        throw new Exception('Something went wrong.');
     }
 }
