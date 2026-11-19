@@ -16,6 +16,16 @@ class OutputLog extends Command
      */
     public function handle()
     {
-        Log::info('OutputLog command executed');
+        Log::info('Laravel log output from artisan command.', ['user_id' => 1234, 'order_id' => 5678]);
+
+        Log::warning('This is a warning message.');
+
+        Log::error('This is an error message.');
+
+        Log::critical('This is a critical message.');
+
+        Log::alert('This is an alert message.');
+
+        Log::emergency('This is an emergency message.');
     }
 }
